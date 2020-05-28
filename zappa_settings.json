@@ -1,0 +1,11 @@
+{
+  "dev": {
+    "aws_region": "ap-south-1",
+    "django_settings": "serveless_django.settings",
+    "profile_name": "default",
+    "project_name": "personal-server",
+    "runtime": "python3.6",
+    "s3_bucket": "personal-backend-serverless",
+    "region": "ap-south-1"
+  }
+}
