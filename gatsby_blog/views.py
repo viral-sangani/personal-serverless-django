@@ -84,7 +84,7 @@ class newSubscriber(APIView):
                 return Response({'error': 'Email already subscribed'})
             else:
                 blogSubObj = BlogSubscriber.objects.create(email=email, name=name, ip=ip)
-                actions(blogSubObj, "NEW_SUBSCRIBER")
+                # actions(blogSubObj, "NEW_SUBSCRIBER")
                 return Response({'success': True})
         else:
             return Response({'error': 'Data was not provided'})
